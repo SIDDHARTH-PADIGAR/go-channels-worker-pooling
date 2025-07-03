@@ -29,9 +29,6 @@ You want to process a list of jobs (say, resizing images or scraping URLs) using
 * **Backpressure** is natural. If all workers are busy, the main goroutine blocks on `jobs <-`.
 
 ---
-Absolutely. Here’s your explanation, trimmed down and bulletized:
-
----
 
 ###  Channels Analogy 
 
